@@ -3,20 +3,27 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <header>
+    <div id="site-title">{siteTitle}</div>
+    <nav>
+      <ul className="inline-list">
+        <li>
+          <a href="#intro">me</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+        <li>
+          <a href="#about">about</a>
+        </li>
+        <li>
+          <a href="#footer">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  /*       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -26,9 +33,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
-    </div>
-  </header>
+      </h1> */
 )
 
 Header.propTypes = {
