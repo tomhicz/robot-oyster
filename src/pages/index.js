@@ -30,13 +30,58 @@ const IndexPage = () => (
       <p>from the UK, living and working in Tokyo, Japan.</p>
     </section>
     <section id="projects">
-      <h2>projects</h2>
-      <p></p>
+      <h2>.projects</h2>
+      <div className="project" id="one">
+        <a href="">
+          <StaticImage
+            src="../images/gatsby-astronaut.png"
+            width={300}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+          />
+          <h3>Project 1 &gt;</h3>
+        </a>
+      </div>
+      <div className="project" id="two">
+        <a href="">
+          <StaticImage
+            src="../images/gatsby-astronaut.png"
+            width={300}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+          />
+          <h3>Project 2 &gt;</h3>
+        </a>
+      </div>
+      <div className="project" id="three">
+        <a href="">
+          <StaticImage
+            src="../images/gatsby-astronaut.png"
+            width={300}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+          />
+          <h3>Project 3 &gt;</h3>
+        </a>
+      </div>
+      <div className="project" id="four">
+        <a href="">
+          <StaticImage
+            src="../images/gatsby-astronaut.png"
+            width={300}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+          />
+          <h3>Project 4 &gt;</h3>
+        </a>
+      </div>
     </section>
     <section id="about">
-      <h2>about me</h2>
-      <input type="text" name="" id="" />
-      <button type="submit">test</button>
+      <h2>.about me</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est enim culpa
         sapiente minima dolorum necessitatibus porro temporibus aliquam! Aperiam

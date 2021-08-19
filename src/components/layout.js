@@ -30,9 +30,15 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer id="footer">
           <ul className="inline-list">
-            <li>email</li>
-            <li>twitter</li>
-            <li>linkedin</li>
+            <li>
+              <a href="">email</a>
+            </li>
+            <li>
+              <a href="">twitter</a>
+            </li>
+            <li>
+              <a href="">linkedin</a>
+            </li>
           </ul>
         </footer>
       </div>
