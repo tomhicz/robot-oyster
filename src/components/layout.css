@@ -18,6 +18,7 @@ body {
 /* CSS Variables for font sizes*/
 :root {
   --baseFontSize: 1.6rem; /*16px*/
+  --marginSize: 1.6rem;
   --mainColor: darkviolet;
   --backgroundColor: #222;
 }
@@ -50,7 +51,7 @@ body {
 
 p {
   font-size: var(--baseFontSize);
-  margin-bottom: 1.6rem;
+  margin-bottom: var(--marginSize);
 }
 
 h1,
@@ -130,9 +131,17 @@ main {
 footer {
   /* grid-area: footer; */
   font-size: var(--baseFontSize);
+  height: 18rem;
+  background-color: tomato;
   position: sticky;
   bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left center right";
 }
+
+/* - Sub styles ---*/
+
 main section {
   /* border: 1px solid red; */
   min-height: 80vh;
@@ -140,19 +149,29 @@ main section {
   flex-direction: column;
   padding: 2rem;
 }
-main section#projects {
+section#intro {
+  justify-content: center;
+}
+section#intro h1 {
+  margin: 0;
+}
+.projects-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
-  grid-template-areas: "title title title";
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1rem;
+  margin-top: var(--marginSize);
 }
-section#projects h2 {
-  grid-area: title;
-}
+
 .project {
   /* background-color: gray; */
+  position: relative;
+  top: 0;
+  transition: all 0.25s ease-in-out;
 }
+.project:hover {
+  top: -15px;
+}
+
 .project a {
   display: inline-block;
   text-decoration: none;
@@ -181,12 +200,21 @@ section h1 {
   text-align: center;
 }
 
+footer .nav-page {
+  grid-area: center;
+}
+footer .social-links {
+  grid-area: right;
+}
+#footer {
+  height: 0;
+}
+
 /*--- Media Queries -----*/
 
 @media screen and (max-width: 550px) {
-  main section#projects {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "title";
+  footer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "center right";
   }
 }

@@ -25,13 +25,24 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="main-grid">
+      <div id="top" className="main-grid">
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
         <main>{children}</main>
-        <footer id="footer">
-          <ul className="inline-list">
+        <footer>
+          <ul className="nav-page">
             <li>
-              <a href="">email</a>
+              <a href="#top">.top</a>
+            </li>
+            <li>
+              <a href="#projects">.projects</a>
+            </li>
+            <li>
+              <a href="#about">.about me</a>
+            </li>
+          </ul>
+          <ul className="social-links inline-list">
+            <li>
+              <a href="">github</a>
             </li>
             <li>
               <a href="">twitter</a>
@@ -41,6 +52,7 @@ const Layout = ({ children }) => {
             </li>
           </ul>
         </footer>
+        <div id="footer"></div>
       </div>
     </>
   )

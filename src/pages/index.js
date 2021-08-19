@@ -23,61 +23,63 @@ const IndexPage = () => (
 */}
     <section id="intro">
       <h1>
-        Hi! I'm Tom and I'm a <span className="highlight">web</span>
-        <span className="highlight">front end</span>
-        <span className="highlight">full stack</span>developer
+        Hi! I'm Tom and I'm a <span className="highlight">web / </span>
+        <span className="highlight">front end / </span>
+        <span className="highlight">full stack</span> developer
       </h1>
       <p>from the UK, living and working in Tokyo, Japan.</p>
     </section>
     <section id="projects">
       <h2>.projects</h2>
-      <div className="project" id="one">
-        <a href="">
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-          />
-          <h3>Project 1 &gt;</h3>
-        </a>
-      </div>
-      <div className="project" id="two">
-        <a href="">
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-          />
-          <h3>Project 2 &gt;</h3>
-        </a>
-      </div>
-      <div className="project" id="three">
-        <a href="">
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-          />
-          <h3>Project 3 &gt;</h3>
-        </a>
-      </div>
-      <div className="project" id="four">
-        <a href="">
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-          />
-          <h3>Project 4 &gt;</h3>
-        </a>
+      <div className="projects-grid">
+        <div className="project" id="one">
+          <a href="">
+            <StaticImage
+              src="../images/placeholder-300x200.png"
+              width={300}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Project Screenshot"
+            />
+            <h3>Project 1 &gt;</h3>
+          </a>
+        </div>
+        <div className="project" id="two">
+          <a href="">
+            <StaticImage
+              src="../images/placeholder-300x200.png"
+              width={300}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Project Screenshot"
+            />
+            <h3>Project 2 &gt;</h3>
+          </a>
+        </div>
+        <div className="project" id="three">
+          <a href="">
+            <StaticImage
+              src="../images/placeholder-300x200.png"
+              width={300}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Project Screenshot"
+            />
+            <h3>Project 3 &gt;</h3>
+          </a>
+        </div>
+        <div className="project" id="four">
+          <a href="">
+            <StaticImage
+              src="../images/placeholder-300x200.png"
+              width={300}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Project Screenshot"
+            />
+            <h3>Project 4 &gt;</h3>
+          </a>
+        </div>
       </div>
     </section>
     <section id="about">
