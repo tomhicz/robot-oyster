@@ -226,7 +226,7 @@ section h1 {
   background-color: tomato;
   flex-grow: 1;
   box-shadow: inset 0 0 0 0 var(--mainColor);
-  transition: ease-out 0.3s;
+  transition: ease-out 0.2s;
 }
 .inline-list li a {
   display: block;
@@ -257,7 +257,7 @@ footer .nav-page {
 }
 .nav-page li {
   box-shadow: inset 0 0 0 0 var(--mainColor);
-  transition: ease-out 0.3s;
+  transition: ease-out 0.2s;
 }
 .nav-page li:hover {
   /*background-color: var(--mainColor);*/
