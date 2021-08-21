@@ -52,6 +52,7 @@ const IndexPage = () => {
                 alt="Project Screenshot"
               />
               <h3>Project 1 &gt;</h3>
+              <p>[ React, APIs ]</p>
             </a>
           </div>
           <div className="project" id="two">
@@ -64,6 +65,7 @@ const IndexPage = () => {
                 alt="Project Screenshot"
               />
               <h3>Project 2 &gt;</h3>
+              <p>[ HTML, CSS ]</p>
             </a>
           </div>
           <div className="project" id="three">
@@ -76,6 +78,7 @@ const IndexPage = () => {
                 alt="Project Screenshot"
               />
               <h3>Project 3 &gt;</h3>
+              <p>[ Vue ]</p>
             </a>
           </div>
           <div className="project" id="four">
@@ -88,6 +91,7 @@ const IndexPage = () => {
                 alt="Project Screenshot"
               />
               <h3>Project 4 &gt;</h3>
+              <p>[ Node, APIs ]</p>
             </a>
           </div>
         </div>
