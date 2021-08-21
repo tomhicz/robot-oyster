@@ -10,7 +10,7 @@ const IndexPage = () => {
     const changeText = document.getElementById("changeText")
     const changingText = ["front end", "full stack", "web"]
     let textIndex = 0
-    window.setInterval(() => {
+    let textTimer = setInterval(() => {
       if (textIndex < changingText.length) {
         changeText.innerHTML = changingText[textIndex]
       } else {
@@ -19,6 +19,9 @@ const IndexPage = () => {
       }
       textIndex++
     }, 4000)
+    return function cleanUp() {
+      clearInterval(textTimer)
+    }
   })
 
   return (
