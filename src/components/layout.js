@@ -42,18 +42,18 @@ const Layout = ({ children }) => {
           </ul>
           <ul className="social-links inline-list">
             <li>
-              <a className="github" href="">
-                github
+              <a href="https://github.com/tomhicz">
+                <span className="github">github</span>
               </a>
             </li>
             <li>
-              <a className="twitter" href="">
-                twitter
+              <a href="">
+                <span className="twitter">twitter</span>
               </a>
             </li>
             <li>
-              <a className="linkedin" href="">
-                linkedin
+              <a href="">
+                <span className="linkedin">linkedin</span>
               </a>
             </li>
           </ul>
