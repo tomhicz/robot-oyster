@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `T H`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Hi! I'm Tom and I'm a web / front end / full stack developer from the UK, living and working in Tokyo, Japan.`,
     author: `@tomhicz`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://lucid-panini-f4e00d.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,10 +23,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#222222`,
+        theme_color: `#222222`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
