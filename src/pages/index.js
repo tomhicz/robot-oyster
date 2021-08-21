@@ -112,7 +112,7 @@ const IndexPage = () => {
           </p>
         </div>
         <div>
-          <h2>.Skills</h2>
+          <h2>.skills</h2>
           <p>Semantic HTML</p>
           <p>CSS</p>
           <p>JS</p>
