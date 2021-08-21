@@ -97,18 +97,35 @@ const IndexPage = () => {
         </div>
       </section>
       <section id="about">
-        <h2>.about me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est enim
-          culpa sapiente minima dolorum necessitatibus porro temporibus aliquam!
-          Aperiam distinctio ipsum aliquam, unde ratione iure voluptatem porro
-          voluptates magnam sunt!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est enim
-          culpa sapiente minima dolorum necessitatibus porro temporibus aliquam!
-          Aperiam distinctio ipsum aliquam.
-        </p>
+        <div>
+          <h2>.about me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est enim
+            culpa sapiente minima dolorum necessitatibus porro temporibus
+            aliquam! Aperiam distinctio ipsum aliquam, unde ratione iure
+            voluptatem porro voluptates magnam sunt!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est enim
+            culpa sapiente minima dolorum necessitatibus porro temporibus
+            aliquam! Aperiam distinctio ipsum aliquam.
+          </p>
+        </div>
+        <div>
+          <h2>.Skills</h2>
+          <p>Semantic HTML</p>
+          <p>CSS</p>
+          <p>JS</p>
+          <p>Responsive Design</p>
+          <p>Accessibility</p>
+          <p>React</p>
+          <p>Vue</p>
+          <p>Node</p>
+          <p>APIs</p>
+          <p>Git</p>
+          <p>Design</p>
+          <p>Typography</p>
+        </div>
       </section>
     </Layout>
   )
