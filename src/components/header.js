@@ -4,7 +4,9 @@ import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div id="site-title">TH</div>
+    <div id="site-title">
+      <Link to="/">TH</Link>
+    </div>
     <nav>
       <ul className="inline-list">
         <li>

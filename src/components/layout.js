@@ -47,12 +47,12 @@ const Layout = ({ children }) => {
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="https://twitter.com/tomhicz">
                 <span className="twitter">twitter</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="https://www.linkedin.com/in/tomhickie/">
                 <span className="linkedin">linkedin</span>
               </a>
             </li>

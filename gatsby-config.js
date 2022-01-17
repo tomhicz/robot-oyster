@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `T H`,
+    title: `Tom Hickie`,
     description: `Hi! I'm Tom and I'm a web / front end / full stack developer from the UK, living and working in Tokyo, Japan.`,
     author: `@tomhicz`,
     siteUrl: `https://lucid-panini-f4e00d.netlify.app/`,
