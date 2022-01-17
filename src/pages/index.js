@@ -45,7 +45,7 @@ const IndexPage = () => {
           <div className="project" id="one">
             <a href="https://github.com/YACT-jp/e-mina-mobile-frontend">
               <StaticImage
-                src="../images/placeholder-300x200.png"
+                src="../images/emina-screens.png"
                 width={300}
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
